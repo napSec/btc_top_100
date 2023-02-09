@@ -2,12 +2,12 @@ BTC Top 100
 
 This program is a Python script that retrieves the top 100 Bitcoin addresses associated with a specific address.
 
-Requirements
+
 
 This program requires the requests library, which can be installed with 
 
-pip install requests.
-Usage
+$ pip install requests
+
 
 To use the program, run the following command in your terminal:
 
