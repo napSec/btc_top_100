@@ -1,2 +1,13 @@
-# btc_top_100
-BTC_Top_100 was created to assist with investigating cyber crime where bitcoin was involved. This is aPython program that will identify the top 100 bitcoin addresses that send or receive bitcoin from the specified address
+BTC Top 100
+
+This program is a Python script that retrieves the top 100 Bitcoin addresses associated with a specific address.
+Requirements
+
+This program requires the requests library, which can be installed with pip install requests.
+Usage
+
+To use the program, run the following command in your terminal:
+
+$ python3 btc_top_100.py
+
+The program will prompt you to enter the address for which you want to retrieve the top 100 associated addresses. Once you have entered the address, the program will retrieve the list of transactions associated with the address, extract the addresses associated with each transaction, count the number of transactions associated with each address, sort the addresses by the number of transactions, and return the top 100 addresses. The addresses and their associated transaction count will be printed to the terminal.
